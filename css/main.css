@@ -1,0 +1,38 @@
+.jumbotron {
+    background-image: url("../assets/background-img.png");
+    background-size: cover;
+}
+
+.jumbotron .container {
+    max-width: 960px;
+    background-color: rgba(0,0,0, 0.4);
+    border : white 1px solid;
+    padding: 1rem;
+}
+
+.jumbotron p {
+    font-size: 1.25rem;
+}
+
+table img {
+    height: 100px;
+    width: auto;
+}
+
+.card {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.card img {
+    object-fit: cover;
+    height: 500px;
+}
+
+.actionButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
