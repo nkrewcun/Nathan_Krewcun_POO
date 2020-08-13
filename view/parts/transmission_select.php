@@ -15,7 +15,7 @@ $transmissions = ['Manuelle', 'Automatique'];
         <?php for ($i = 0; $i <= 1; $i++) { ?>
             <option value="<?php echo $i ?>"
                 <?php if (isset($voiture)) {
-                    if ($i === (int)$voiture->getIsAutomatic()) {
+                    if ((string)$i === $voiture->getIsAutomatic()) {
                         echo 'selected';
                     }
                 } ?>>
