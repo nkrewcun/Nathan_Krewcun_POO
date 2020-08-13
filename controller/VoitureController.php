@@ -96,7 +96,7 @@ class VoitureController
             $errors[] = 'Le type d\'énergie est requis';
         }
         if ($voiture->getIsAutomatic() !== '0' && $voiture->getIsAutomatic() !== '1' ) {
-            $errors[] = 'La transmission automatique est requis';
+            $errors[] = 'Le type de transmission est requis';
         }
         $imageError = $this->validImage($image);
         if ($imageError) {
@@ -130,6 +130,4 @@ class VoitureController
         move_uploaded_file($image['tmp_name'], 'uploads/images/' . $voitureImage);
         return $voitureImage;
     }
-
-
 }

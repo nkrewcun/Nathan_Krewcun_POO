@@ -25,32 +25,9 @@ include_once 'parts/head.php';
                            value="<?php echo $voiture->getModele(); ?>" required/>
                 </div>
 
-                <div class="form-group">
-                    <label for="energie">Énergie</label>
-                    <select name="energie" id="energie" class="form-control">
-                        <option value="default" <?php if (!isset($voiture)) {
-                            echo 'selected';
-                        } ?> hidden>Choisissez le type d'énergie
-                        </option>
-                        <option value="Essence">Essence</option>
-                        <option value="Diesel">Diesel</option>
-                        <option value="Électrique">Électrique</option>
-                        <option value="Hybride">Hybride</option>
-                    </select>
-                </div>
+                <?php include_once 'parts/energy_select.php'; ?>
 
-                <div class="form-group">
-                    <label for="isAutomatic">Transmission</label>
-                    <select name="isAutomatic" id="isAutomatic" class="form-control">
-                        <option value="default" <?php if (!isset($voiture)) {
-                            echo 'selected';
-                        } ?> hidden>Choisissez le type de transmission
-                        </option>
-                        <option value="0">Manuelle</option>
-                        <option value="1">Automatique</option>
-                    </select>
-                </div>
-
+                <?php include_once 'parts/transmission_select.php'; ?>
 
                 <div class="form-group">
                     <label for="image">Ajouter une image</label><br>
