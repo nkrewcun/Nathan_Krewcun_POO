@@ -7,8 +7,8 @@ $energies = ['Essence', 'Diesel', 'Électrique', 'Hybride'];
 
 <div class="form-group">
     <label for="energie">Énergie</label>
-    <select name="energie" id="energie" class="form-control">
-        <option value="default" <?php if (!isset($voiture)) {
+    <select name="energie" id="energie" class="form-control" required>
+        <option value="" <?php if (!isset($voiture)) {
             echo 'selected';
         } ?> hidden>Choisissez le type d'énergie
         </option>

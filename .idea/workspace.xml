@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f201b52-25f6-4f7e-a9fc-9d291379ca95" name="Default Changelist" comment="" />
+    <list default="true" id="8f201b52-25f6-4f7e-a9fc-9d291379ca95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/VoitureController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/VoitureController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/parts/energy_select.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/parts/energy_select.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/parts/transmission_select.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/parts/transmission_select.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +32,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1g2AMWFG6utjTsksd3gHsOTvCDX" />
   <component name="ProjectViewState">
@@ -41,6 +67,8 @@
       <option name="presentableId" value="Default" />
       <updated>1597302265679</updated>
       <workItem from="1597302266789" duration="9932000" />
+      <workItem from="1597312316323" duration="737000" />
+      <workItem from="1597313103709" duration="85000" />
     </task>
     <servers />
   </component>
@@ -49,6 +77,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597303222779">

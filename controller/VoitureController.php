@@ -92,7 +92,8 @@ class VoitureController
         if (empty($voiture->getModele())) {
             $errors[] = 'Le modèle est requis';
         }
-        if (!preg_match('/^(Hybride|Électrique|Essence|Diesel)$/', $voiture->getEnergie())) {
+        $energies = ['Essence', 'Diesel', 'Électrique', 'Hybride'];
+        if (!in_array($voiture->getEnergie(), $energies, true)) {
             $errors[] = 'Le type d\'énergie est requis';
         }
         if ($voiture->getIsAutomatic() !== '0' && $voiture->getIsAutomatic() !== '1' ) {

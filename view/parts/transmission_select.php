@@ -7,8 +7,8 @@ $transmissions = ['Manuelle', 'Automatique'];
 
 <div class="form-group">
     <label for="isAutomatic">Transmission</label>
-    <select name="isAutomatic" id="isAutomatic" class="form-control">
-        <option value="default" <?php if (!isset($voiture)) {
+    <select name="isAutomatic" id="isAutomatic" class="form-control" required>
+        <option value="" <?php if (!isset($voiture)) {
             echo 'selected';
         } ?> hidden>Choisissez le type de transmission
         </option>
